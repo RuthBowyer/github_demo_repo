@@ -6,3 +6,5 @@ apply(iris[c(1:4)], 2, function(x){
 }
 
 print("Beth is great")
+
+print("I like beans")

@@ -1,0 +1,36 @@
+---
+title: "An Rmarkdown example"
+author: "Ruth CE Bowyer"
+date: "2023-10-10"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## A header 
+
+I can write what i want without worrying about my code not working 
+
+I can demo things
+
+```{r message=TRUE, warning=TRUE}
+
+data(iris)
+head(iris)
+
+```
+
+## Here is a nice figure
+
+I want to show you this 
+
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_jitter() + theme_minimal()
+
+```
+
