@@ -28,7 +28,7 @@ head(iris)
 I want to show you this 
 
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=FALSE, warning=TRUE}
 library(ggplot2)
 ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_jitter() + theme_minimal()
 
