@@ -4,3 +4,7 @@ data(iris)
 apply(iris[c(1:4)], 2, function(x){
   mean(x, na.rm=T)
 }
+
+print("Beth is great")
+
+print("I like beans")
